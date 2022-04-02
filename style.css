@@ -1,0 +1,76 @@
+*{/* set up to avaoid any margin and padding*/
+    margin: 0;
+    padding: 0;
+}
+body{
+position: relative;
+    font-family: "comic sans ms";
+    font-size: 20px;
+    min-width :100vh; ;
+}
+
+header{
+    position: fixed;/* to fix our header at the top*/
+    text-align: right; /* we use that to move the text left, center or right*/ 
+}
+
+li{
+    display: inline; /* to have my liste in the same line I need to use display line*/
+    padding: 0 20px; /* we put 0 because we dont need padding at top and bottom 20px means at right and left*/
+}
+
+a{
+    color: white; /* we used a tag here to get access directly to the content*/
+    text-decoration: none; /* to take out all decoration in the text example souligne*/
+}
+
+header, footer{
+    width: 100%; /* to the row*/
+    height: 60px;
+    line-height: 60px; /* We use that to center the text inside the height must have same height we set up already*/
+    background-color: #85754d;
+}
+main{
+    padding: 60px 0;
+}
+
+img{
+    display: block;/* this tag will move the image*/
+    margin: 0 auto;
+    width: 500px;/* to change the image dimenssion*/
+    
+}
+
+#contact{
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    background-color: #67a57a ;
+}
+
+form{ /* help to set up the button*/
+    margin: 0 auto; /* add to align everything*/
+    width: 500px;
+    padding: 10px;
+    border: solid 5px rgb(40, 10, 40) ;
+   
+}
+
+label{
+    display: inline-block; /*aline inside the footer*/
+    width: 100px;
+}
+input{
+    width: 300px;/*help with the footer*/
+}
+.text-center{
+    text-align: center;
+}
+.radius{
+    border-radius: 10px;
+}
+
+footer{
+position: absolute;
+bottom: 0;
+}
